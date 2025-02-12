@@ -198,7 +198,7 @@ If you previously encountered a race condition where `FabricInstallerService.exe
 
 ## } 
 
- 
+ Note: It’s important to note that it is okay if FabricGateway.exe is not immediately visible after applying the changes on a single node. The process will appear once you have completed all necessary steps on all seed nodes and at least three or more non-primary nodes. 
 
 15. After all the nodes have been updated (or at least all the seed nodes), services should be restarting and when ready you see FabricGateway.exe running you can try to reconnect to the cluster over SFX and PowerShell from your development computer.  *(Make sure you have installed the new Cert to `CurrentUser\My`)*
 
